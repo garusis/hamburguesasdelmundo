@@ -12,6 +12,7 @@
 		65980D981C144A0600818CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65980D961C144A0600818CAD /* Main.storyboard */; };
 		65980D9A1C144A0600818CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65980D991C144A0600818CAD /* Assets.xcassets */; };
 		65980D9D1C144A0600818CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65980D9B1C144A0600818CAD /* LaunchScreen.storyboard */; };
+		65BB9F1A1C15011300322449 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB9F191C15011300322449 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		65980D991C144A0600818CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65980D9C1C144A0600818CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65980D9E1C144A0600818CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65980DA61C1492E900818CAD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		65BB9F191C15011300322449 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,8 @@
 		65980D861C144A0500818CAD = {
 			isa = PBXGroup;
 			children = (
+				65BB9F181C1500CB00322449 /* Datos */,
+				65980DA71C1492F600818CAD /* playground */,
 				65980D911C144A0500818CAD /* MasFeliz */,
 				65980D901C144A0500818CAD /* Products */,
 			);
@@ -62,6 +67,22 @@
 				65980D9E1C144A0600818CAD /* Info.plist */,
 			);
 			path = MasFeliz;
+			sourceTree = "<group>";
+		};
+		65980DA71C1492F600818CAD /* playground */ = {
+			isa = PBXGroup;
+			children = (
+				65980DA61C1492E900818CAD /* MyPlayground.playground */,
+			);
+			name = playground;
+			sourceTree = "<group>";
+		};
+		65BB9F181C1500CB00322449 /* Datos */ = {
+			isa = PBXGroup;
+			children = (
+				65BB9F191C15011300322449 /* Datos.swift */,
+			);
+			name = Datos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +158,7 @@
 			files = (
 				65980D951C144A0500818CAD /* ViewController.swift in Sources */,
 				65980D931C144A0500818CAD /* AppDelegate.swift in Sources */,
+				65BB9F1A1C15011300322449 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +306,7 @@
 				65980DA31C144A0600818CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
